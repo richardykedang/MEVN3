@@ -1,0 +1,24 @@
+npm install -g @vue/cli = instaling vue cli
+vue create project-name = create vue project
+vue version =  Babel, Router, Vuex, Linter
+npm run serve = run vue project
+npm install bootstrap --save = boostrap package
+npm install jquery popper.js --save = boostrap package
+
+issued on visual studio code = https://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut
+run npm install -g eslint for issued on new line or put this "build": "npm run lint -- --fix && vue-cli-service build", on json package and run build
+
+//node js
+- install nodemon = npm install nodemon -g
+- install babel cli = npm install --save-dev babel-cli babel-preset-env
+-install consurrently = npm install concurrently --save-dev
+-run app = npm run dev
+//install middleware for logger and cors
+-npm install cors morgan --save-dev
+-npm install body-parser --save
+-npm install mongoose
+-npm run lint -s for formating lint
+-npm install moment --save
+-npm install bcrypt-nodejs --save
+-npm install axios --save
+-npm install jsonwebtoken --save

@@ -1,0 +1,85 @@
+*{
+    color: #fff;
+}
+
+.custom-bg-dark {
+    background-color: #373f46 !important;
+}
+
+nav.navbar {
+    height: 6rem;
+}
+
+a.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+li.nav-item a {
+    text-transform: uppercase;
+}
+
+#app-container {
+    top: 96px;
+    bottom: 96px;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    left: 0;
+    background-color: #1d2733;
+    overflow: auto;
+}
+
+footer#custom-footer {
+    height: 6rem;
+    font-size: 1rem;
+    position: fixed;
+    background-color: #373f46;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#custom-home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    color: #32aced !important;
+}
+
+.btn-success {
+    color: #4fc86d !important;
+}
+
+.btn-success:hover {
+    color: #3da978 !important;
+}
+
+form.custom-form {
+    max-width: 40rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px)  {
+    div#navbarCollapse {
+        width: 100%;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        padding-left: 28px;
+        padding-bottom: 5px;
+        background-color: #373f46;
+
+    }
+}
+
