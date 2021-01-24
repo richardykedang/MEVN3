@@ -16,7 +16,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/task/new',
+    path: '/tasks/new',
     name: 'task-create',
     component: TaskCreate,
     beforeEnter: (toolbar, from, next) => {
@@ -41,7 +41,7 @@ const routes = [
   },
   {
     path: '/task',
-    name: 'task-all',
+    name: 'tasks-all',
     component: TaskAll,
     beforeEnter: (toolbar, from, next) => {
       if (auth.IsLogin) {
