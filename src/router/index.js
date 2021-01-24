@@ -44,7 +44,7 @@ const routes = [
     name: 'task-all',
     component: TaskAll,
     beforeEnter: (toolbar, from, next) => {
-      if (auth.Islogin) {
+      if (auth.IsLogin) {
         next()
       } else {
         next('/login')
