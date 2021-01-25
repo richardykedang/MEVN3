@@ -8,7 +8,16 @@
     </div>
 </template>
 <script>
+
+import * as taskService from '../../services/TaskService'
 export default {
-  name: 'tasks-all'
+  name: 'tasks-all',
+  beforeRouteEnter (to, from, next) {
+    taskService.getAllTasks()
+      .then(res => {
+        console.log(res)
+        next()
+      })
+  }
 }
 </script>
