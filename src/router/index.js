@@ -56,7 +56,7 @@ const routes = [
     name: 'register',
     component: Register,
     beforeEnter: (toolbar, from, next) => {
-      if (!auth.Islogin) {
+      if (auth.IsLogin) {
         next()
       } else {
         next('/')
@@ -68,7 +68,7 @@ const routes = [
     name: 'login',
     component: Login,
     beforeEnter: (toolbar, from, next) => {
-      if (!auth.Islogin) {
+      if (auth.IsLogin) {
         next()
       } else {
         next('/')
