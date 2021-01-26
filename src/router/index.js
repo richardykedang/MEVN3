@@ -29,10 +29,10 @@ const routes = [
   },
   {
     path: '/task/:id',
-    name: 'task-edit',
+    name: 'tasks-edit',
     component: TaskEdit,
     beforeEnter: (toolbar, from, next) => {
-      if (auth.Islogin) {
+      if (auth.IsLogin) {
         next()
       } else {
         next('/login')

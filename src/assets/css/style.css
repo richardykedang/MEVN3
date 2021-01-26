@@ -70,6 +70,16 @@ form.custom-form {
     flex-direction: column;
 }
 
+
+.modal-title,
+.modal-body p {
+    color: #000 !important;
+}
+
+.late {
+    color: #dc3545;
+}
+
 @media screen and (max-width: 767px)  {
     div#navbarCollapse {
         width: 100%;
